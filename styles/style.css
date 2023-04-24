@@ -50,7 +50,7 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  margin-top: 32px;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -59,6 +59,7 @@
   font-size: 20px;
   line-height: 30px;
   margin-top: 32px;
+  margin-bottom: 0;
 }
 
 .header__image {
