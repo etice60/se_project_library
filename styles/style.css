@@ -16,10 +16,6 @@
   box-sizing: border-box;
 }
 
-#header {
-  position: fixed;
-}
-
 .nav {
   display: flex;
   justify-content: space-between;
@@ -54,14 +50,15 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  padding-bottom: 32px;
+  margin-top: 32px;
+  margin-bottom: 0;
 }
 
 .header__description {
   max-width: 532px;
   font-size: 20px;
   line-height: 30px;
-  margin: 0;
+  margin-top: 32px;
 }
 
 .header__image {
@@ -222,7 +219,6 @@
 
 .person__image {
   max-width: 100%;
-  left: 319px;
 }
 
 .person__image_size_l {
@@ -244,6 +240,7 @@
 }
 .staff {
   padding: 100px 0 140px;
+  background-image: url(../images/staff_picks_background.jpg);
 }
 
 .staff__title {
@@ -251,6 +248,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  color: #ffffff;
 }
 
 .staff__subtitle {
@@ -259,6 +257,7 @@
   line-height: 30px;
   font-weight: 400;
   margin: 0;
+  color: #ffffff;
 }
 .staff__cards {
   max-width: 760px;
@@ -273,11 +272,6 @@
   margin-top: 68px;
 }
 
-.background-image {
-  background-size: cover;
-  background-position: center;
-  background-image: url(./images/staff_picks_background.jpg);
-}
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 
 .card {
@@ -401,6 +395,10 @@
   z-index: 3;
 }
 
+.about__paragraph:last-child {
+  margin: 0;
+}
+
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
@@ -453,6 +451,8 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link {
